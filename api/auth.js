@@ -11,6 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({ origin: "*", credentials: true }));
+app.use(express.json({ limit: "1mb" }));
 app.use(express.json());
 app.use(cookieParser());
 
