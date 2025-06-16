@@ -1,10 +1,4 @@
-import bcryptjs from "bcryptjs";
-import crypto from "crypto";
-import nodemailer from "nodemailer";
-import { generateTokenAndSetCookie } from "../utils/generateTokenAndSetCookie.js";
-import { OAuth2Client } from "google-auth-library";
-import { User } from "../models/user.model.js";
-import { Feedback2 } from "../models/feedback2.model.js";
+
 import Groq from 'groq-sdk';
 import dotenv from 'dotenv';
 
